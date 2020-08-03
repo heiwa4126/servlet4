@@ -1,0 +1,7 @@
+body {
+    margin-left: 0.3em;
+    padding-left: 0.5em;
+    border-left: 1em solid gray;
+}
+p {text-align: justify;}
+pre {font-family: Consolas, "Courier New", Courier, Monaco, monospace;}

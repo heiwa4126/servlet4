@@ -44,8 +44,8 @@ public class Servlet4Controller {
   @RequestMapping(value = "/test4/2.htm")
   public ModelAndView test42(ModelAndView mv) {
     mv.setViewName("test4");
-    mv.addObject("msg", t4b.getMsg());
-    mv.addObject("now", ".........");
+    mv.addObject("msg", t4b.msg);
+    mv.addObject("now", LocalDateTime.now());
     return mv;
   }
 }

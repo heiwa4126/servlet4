@@ -7,17 +7,15 @@ import org.springframework.stereotype.Component;
 public class Test4Bean {
 
   @Value("${test4.msg}")
-  private String msg;
+  public String msg;
 
-  public Test4Bean () {
-    msg = "";
-  }
-
-  public String getMsg() {
-    return msg;
-  }
-
-  public void setMsg(String s) {
-    msg = s;
-  }
+  // public Test4Bean () {
+  //   msg = "";
+  // }
+  // public String getMsg() {
+  //   return msg;
+  // }
+  // public void setMsg(String s) {
+  //   msg = s;
+  // }
 }

@@ -52,3 +52,7 @@ dependencies {
 test {
 	  useJUnitPlatform()
 }
+
+bootRun {
+    jvmArgs = ['-D=spring.thymeleaf.cache=false']
+}
