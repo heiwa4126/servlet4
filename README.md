@@ -10,6 +10,10 @@ Spring Boot, JAVA, Gradle(groovy) のサンプル。
 
 # 実行メモ
 
+git cloneしたら、
+プロジェクトフォルダに移動して、
+最初に1回 `gradle wrapper`.
+
 `./gradlew bootRun` でテスト実行
 
 `./gradlew bootJar`, `./gradlew bootWar` で ./build/libにjarとwar
